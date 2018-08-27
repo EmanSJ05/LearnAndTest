@@ -11,11 +11,10 @@ import com.emansj.learnandtest.adapter.AdapterListProgress;
 import com.emansj.learnandtest.model.Progress;
 
 import java.util.List;
-//Test ubah komen
+//Test ubah komen disini untuk lihat github
 public class ListProgress extends AppCompatActivity {
 
     private View parent_view;
-
     private RecyclerView recyclerView;
     private AdapterListProgress mAdapter;
 

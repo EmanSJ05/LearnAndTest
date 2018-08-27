@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--progress data-->
+    <string-array name="progress_data">
+        <item>Jaringan Irigasi Tertier</item>
+        <item>Irigasi Air Permukaan</item>
+        <item>Bangunan Konservasi air dan Antisipasi Anomali Iklim</item>
+        <item>Irigasi Rawa</item>
+        <item>Perluasan Sawah</item>
+        <item>Prasetifikasi Lahan Pertanian</item>
+        <item>Optimasi Lahan</item>
+        <item>Alat dan Mesin Pertanian</item>
+        <item>Asuransi Tanaman Pangan</item>
+        <item>Asuransi Usaha Ternak</item>
+    </string-array>
+
+    <string-array name="progress_realisasi">
+        <item>99.95</item>
+        <item>99.25</item>
+        <item>97.96</item>
+        <item>99.56</item>
+        <item>85.84</item>
+        <item>73.08</item>
+        <item>82.98</item>
+        <item>97.50</item>
+        <item>99.55</item>
+        <item>74.26</item>
+    </string-array>
+
+    <!--shopping category data-->
+    <integer-array name="shop_category_icon">
+        <item>@drawable/ic_devices</item>
+        <item>@drawable/ic_accessibility</item>
+        <item>@drawable/ic_face</item>
+        <item>@drawable/ic_child_friendly</item>
+        <item>@drawable/ic_weekend</item>
+
+        <item>@drawable/ic_pool</item>
+        <item>@drawable/ic_confirmation_number</item>
+        <item>@drawable/ic_restaurant</item>
+
+        <item>@drawable/ic_devices</item>
+        <item>@drawable/ic_accessibility</item>
+        <item>@drawable/ic_face</item>
+        <item>@drawable/ic_child_friendly</item>
+        <item>@drawable/ic_weekend</item>
+    </integer-array>
+
+
+    <integer-array name="shop_category_bg">
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_19</item>
+        <item>@drawable/image_20</item>
+        <item>@drawable/image_21</item>
+        <item>@drawable/image_8</item>
+
+        <item>@drawable/image_22</item>
+        <item>@drawable/image_23</item>
+        <item>@drawable/image_24</item>
+
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_19</item>
+        <item>@drawable/image_20</item>
+        <item>@drawable/image_21</item>
+        <item>@drawable/image_8</item>
+    </integer-array>
+
+    <string-array name="shop_category_title">
+        <item>Gadgets and Computers</item>
+        <item>Fashion</item>
+        <item>Beauty and Health</item>
+        <item>Babies and Kids</item>
+        <item>Home and Garden</item>
+
+        <item>Sports and Hobby</item>
+        <item>Ticket and Voucher</item>
+        <item>Service and Food</item>
+
+        <item>X - Gadgets and Computers</item>
+        <item>X - Fashion</item>
+        <item>X - Beauty and Health</item>
+        <item>X - Babies and Kids</item>
+        <item>X - Home and Garden</item>
+    </string-array>
+
+    <string-array name="shop_category_brief">
+        <item>100k Items</item>
+        <item>655k Items</item>
+        <item>221k Items</item>
+        <item>85k Items</item>
+        <item>725k Items</item>
+
+        <item>932k Items</item>
+        <item>475k Items</item>
+        <item>362k Items</item>
+
+        <item>100k Items</item>
+        <item>655k Items</item>
+        <item>221k Items</item>
+        <item>85k Items</item>
+        <item>725k Items</item>
+    </string-array>
+
+</resources>

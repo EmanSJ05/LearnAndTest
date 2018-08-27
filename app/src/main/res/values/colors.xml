@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryMyTheme">#79d546</color>
+    <color name="colorPrimaryDarkMyTheme">#4cb050</color>
+    <color name="colorAccentMyTheme">#79d546</color>
+    <color name="colorControlHighlight">#79d546</color>
+    <color name="ripple_material_dark">#79d546</color>
+</resources>

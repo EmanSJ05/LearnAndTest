@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:id="@+id/lyParent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="3dp"
+            android:text="Category Name"
+            android:textSize="10sp"
+            android:textColor="#78909C" />
+
+        <TextView
+            android:id="@+id/tvRealisasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="3dp"
+            android:text="50%"
+            android:textSize="10sp"
+            android:textColor="#37474F"
+            android:textStyle="bold"/>
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRealisasi"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="10" />
+
+    </RelativeLayout>
+
+</LinearLayout>

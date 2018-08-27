@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/box1"
+            style="@style/TealBox" />
+
+        <View
+            android:id="@+id/box2"
+            style="@style/MyBox.CYAN"/>
+
+    </LinearLayout>
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="normal"
+        android:id="@+id/normal_button" />
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="borderless"
+        android:id="@+id/borderless_button"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="colored"
+        android:id="@+id/colored_button"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <CheckBox android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox" />
+
+    <RadioButton android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New RadioButton"
+        android:id="@+id/radioButton" />
+
+    <Switch android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Switch"
+        android:id="@+id/switchButton" />
+
+    <SeekBar android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar" />
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView" />
+
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Input" />
+
+</LinearLayout>

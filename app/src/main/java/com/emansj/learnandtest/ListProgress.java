@@ -11,7 +11,7 @@ import com.emansj.learnandtest.adapter.AdapterListProgress;
 import com.emansj.learnandtest.model.Progress;
 
 import java.util.List;
-//Test
+//Test ubah komen
 public class ListProgress extends AppCompatActivity {
 
     private View parent_view;
